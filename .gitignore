@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Results and cache (generated data)
+results/
+cache/
+*.npz
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks (if used)
+.ipynb_checkpoints/
+
+# Data (too large for git)
+data/*.csv
+!data/.gitkeep
